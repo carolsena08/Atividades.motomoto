@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Idade</title>
+</head>
+<body>
+
+    <script>
+    let idade = prompt("Digite a sua idade");
+    if(idade == ""){
+        document.writeln("Digite um valor para continuar");
+        document.writeln("Pressione F5");
+    }else{
+    if(idade >=18){
+        alert("Você é maior de idade");
+    }else{
+        alert("Você é menor de idade");
+    }
+}
+    
+</script>
+
+</body>
+</html>
